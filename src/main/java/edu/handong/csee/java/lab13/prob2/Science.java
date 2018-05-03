@@ -9,13 +9,13 @@ public class Science extends Book {
 	public Science() {
 		super(); // calls empty constructor of its superclass: Book
 	}
-	
+
 	// constructor with parameters name and publisher
 	public Science(String name, String publisher) {
 		super(name);  // calls constructor of its superclass: Book with parameter as name of the book
 		this.publisher = publisher; // sets the value of publisher that was gotten from the user
 	}
-	
+
 	// Overridden method (same name as its superclass's method) that prints out the information of the Science class
 	@Override
 	public void writeOutput() {

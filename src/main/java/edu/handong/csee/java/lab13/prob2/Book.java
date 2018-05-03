@@ -5,17 +5,17 @@ package edu.handong.csee.java.lab13.prob2;
 public class Book {
 	private static int count=0; // count variable defined as 'static' so that it counts how many books it has made for every instance of Book 
 	private String name; // name variable that stores name of the book
-	
+
 	// empty constructor
 	public Book(){
 		this.name= ""; // sets default value of name as just an empty string since the user has not specified the name
 	}
-	
+
 	// constructor with name of the book passed as parameter
 	public Book(String name){
 		this.name = name; // sets the value of name of the book of the instance by using "this"
 	}
-	
+
 	// info method that returns the id(count variable) of the book and the name
 	public String info() {
 		count++; // when info() is called, increases the value of count to give a new value for book's ID

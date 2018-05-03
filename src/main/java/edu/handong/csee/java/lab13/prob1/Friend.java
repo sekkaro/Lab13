@@ -7,5 +7,5 @@ public class Friend {
 	public void friend() {
 		System.out.println("Just Friend!"); // prints out message "Just Friend!"
 	}
-	
+
 }

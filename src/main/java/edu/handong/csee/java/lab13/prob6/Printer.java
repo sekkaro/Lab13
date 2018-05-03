@@ -3,7 +3,7 @@ package edu.handong.csee.java.lab13.prob6;
 
 // Printer class
 public class Printer {
-	
+
 	// print static method
 	public static void print(Object object) {
 		// if the object that was returned as parameter is instance implementing CapitalPrint interface,
